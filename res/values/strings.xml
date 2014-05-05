@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">易看阅读</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title">我的书架</string>
+    <string name="read_online">在线阅读</string>
+    <string name="read_from_dir">打开文件</string>
+    <string name="progress">当前进度：%s</string>
+    <string name="progress_o">当前进度：20%</string>
+    <string name="progress_light">当前亮度：b</string>
+
+</resources>

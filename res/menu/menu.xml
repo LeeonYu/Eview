@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/size"
+        android:icon="@drawable/size"
+        android:title="字体">
+    </item>
+    <item
+        android:id="@+id/light"
+        android:icon="@drawable/light"
+        android:title="亮度">
+    </item>
+    <item
+        android:id="@+id/background"
+        android:icon="@drawable/background"
+        android:title="风格">
+    </item>
+    <item
+        android:id="@+id/bookmark"
+        android:icon="@drawable/bookmark"
+        android:title="书签">
+    </item>
+    <item
+        android:id="@+id/jump"
+        android:icon="@drawable/jump"
+        android:title="进度">
+    </item>
+    <item
+        android:id="@+id/exit"
+        android:icon="@drawable/exit"
+        android:title="退出">
+    </item>
+
+</menu>

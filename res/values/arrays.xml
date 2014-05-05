@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="about">
+        <item>版本：V1.0 beta</item>
+        <item>技术：喻亮</item>
+        <item>功能：黄泽华</item>
+        <item>美工：施源</item>
+        <item>版权所有</item>
+    </string-array>
+
+</resources>
