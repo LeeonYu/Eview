@@ -10,8 +10,6 @@ import com.android.eview.R;
 import com.android.eview.reader.turntest;
 import com.sqlite.BookInfo;
 import com.sqlite.DbHelper;
-import com.baidu.oauth.BaiduOAuth;
-import com.baidu.oauth.BaiduOAuth.BaiduOAuthResponse;
 import com.android.mainview.ExDialog.MyAdapter;
 import com.android.mainview.MyLinearLayout.OnScrollListener;
 import com.android.mainview.*;
@@ -1062,24 +1060,8 @@ private String mbOauth = null;
 //    		// TODO Auto-generated catch block
 //    		e.printStackTrace();
 //    	}
-		BaiduOAuth oauthClient = new BaiduOAuth();
-		oauthClient.startOAuth(this, mbApiKey, new String[]{"basic", "netdisk"}, new BaiduOAuth.OAuthListener() {
-			@Override
-			public void onException(String msg) {
-				Toast.makeText(getApplicationContext(), "Login failed " + msg, Toast.LENGTH_SHORT).show();
-			}
-			@Override
-			public void onComplete(BaiduOAuthResponse response) {
-				if(null != response){
-					mbOauth = response.getAccessToken();
-					Toast.makeText(getApplicationContext(), "Token: " + mbOauth + "    User name:" + response.getUserName(), Toast.LENGTH_SHORT).show();
-				}
-			}
-			@Override
-			public void onCancel() {
-				
-			}
-		});
+		
+	
     }
 
 
